@@ -3,9 +3,9 @@ require "pry"
 def reverse_each_word (sentence)
   backwards = []
   separated = sentence.split
-  separated.each do |array|
+  separated.each do |word|
     binding.pry
-    backwards << string.reverse
+    backwards << word.reverse
     end
 backwards.join(" ")
 backwards

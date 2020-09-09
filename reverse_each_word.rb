@@ -3,9 +3,9 @@ require "pry"
 def reverse_each_word (string)
   backwards = []
   string.split ()
-  string.collect do |element|
+  string.each do |element|
     backwards << element.reverse
-
   end
-backwards
+  
+backwards.join()
 end

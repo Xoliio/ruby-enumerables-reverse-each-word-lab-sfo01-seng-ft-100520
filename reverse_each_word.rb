@@ -7,6 +7,5 @@ def reverse_each_word (sentence)
     #binding.pry
     backwards << word.reverse
     end
-one_sentence = backwards.join(" ")
-one_sentence
+backwards.join(" ")
 end

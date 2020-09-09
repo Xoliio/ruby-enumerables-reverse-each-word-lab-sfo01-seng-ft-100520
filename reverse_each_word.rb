@@ -7,7 +7,7 @@
 #     end
 # backwards.join(" ")
 # end
-# 
+#
 # def reverse_each_word (sentence)
 #   backwards = []
 #   separated = sentence.split
@@ -28,4 +28,3 @@
 def reverse_each_word (sentence)
   separated = sentence.split
   backwards = separated.collect {|word| word.reverse}.join
-  

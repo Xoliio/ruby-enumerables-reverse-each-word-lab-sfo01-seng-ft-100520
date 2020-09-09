@@ -8,6 +8,7 @@ def reverse_each_word (string)
   separated.each do |element|
     backwards << reverse_element
     binding.pry
+    hello
     end
 backwards.join(" ")
 backwards

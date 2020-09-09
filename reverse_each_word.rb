@@ -2,13 +2,11 @@ require "pry"
 
 def reverse_each_word (string)
   backwards = []
-  string.split ()
-
-  string.each do |element|
-
+  separated = string.split ()
+  separated do |element|
     backwards << element.reverse
 
   end
-binding.pry
+
 backwards.join()
 end

@@ -8,6 +8,6 @@ def reverse_each_word (string)
       binding.pry
     backwards << element.reverse
   end
-  
+
 backwards.join()
 end

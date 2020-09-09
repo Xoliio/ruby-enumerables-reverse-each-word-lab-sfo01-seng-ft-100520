@@ -4,6 +4,7 @@ def reverse_each_word (string)
   backwards = []
   separated = []
   separated << string.split
+  binding.pry
   separated do |element|
     backwards << element.reverse
     end

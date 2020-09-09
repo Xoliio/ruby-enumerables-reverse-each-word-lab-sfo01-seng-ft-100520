@@ -28,3 +28,4 @@
 def reverse_each_word (sentence)
   separated = sentence.split
   backwards = separated.collect {|word| word.reverse}.join
+end

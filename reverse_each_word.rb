@@ -1,9 +1,11 @@
 require "pry"
 
 def reverse_each_word (string)
+  backwards = []
   string.split ()
   string.map do |element|
-    element.reverse
-  end
+    backwards << element.reverse
 
+  end
+backwards
 end
